@@ -1,6 +1,7 @@
 # BioAhorcado
 
 **¿ De que trata ?**
+
 El bioahorcado es un juego creado en python para jugar desde consola con el proposito de enseñar los pasos y los participantes de la
 expresion genica al usuario.
 Es un juego interactivo en donde el usuario debe ir eligiendo letras para descubrir la palabra oculta.
@@ -30,7 +31,7 @@ Al correr el juego en la consola, recibira un saludo inicial y la aplicacion le 
 A demas de esto, el juego mostrara la imagen de una ahorca vacia, la cual se ira completando a medida que el jugador se queda 
 sin intentos.
 Por debajo del dibujo, se mostrara con guiones la cantidad de letras que tiene la palabra.
-
+````
 Jueguemos al BioAhorcado! >:3
 
                    --------
@@ -45,7 +46,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 
 Por favor, escribi una letra o palabra:
-
+````
 **Configuracion**
 
 Si alguien quisiera modificar el juego, agregar una nueva palabra es muy sencillo y acontinuacion te contamos como.
@@ -59,7 +60,7 @@ De querer agregar una nueva palabra al juego, solo debera agregarla a ambos dici
 texto informativo.
 
 A continuacion dejamos un ejemplo de como se deben agregar, notese que cada elemento esta separado por una coma:
-
+````
 palabras = {
     'atomo':
 		[
@@ -82,3 +83,4 @@ textos = {
         'Una propiedad importante del ADN es que puede replicarse o hacer copias de sí mismo. Cada hebra de ADN en la doble hélice puede servir como patrón para duplicar la secuencia de bases'
 
 }
+````
